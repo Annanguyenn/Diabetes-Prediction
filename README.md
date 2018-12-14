@@ -4,7 +4,7 @@ Trained and compared the performance of the machine learning models with two dif
 
 Tools: Python, Scikit-Learn, Logistic Regression, Random Forest Classifier, AdaBoost, Perceptron.
 
-**Data:**
+**Data**
 
 Data Source: `diabetesdata.csv`. About the data:
 
@@ -17,7 +17,7 @@ Data Source: `diabetesdata.csv`. About the data:
 8. __Age__: Age (years) 
 9. __IsDiabetic__: 0 if not diabetic or 1 if diabetic) 
 
-**Summary:** 
+**Summary** 
 
 First, I use the dataset with Mean imputation to train perceptron, logistic regression and random forest models using 15% test split and report the train and test accuracy.
 
