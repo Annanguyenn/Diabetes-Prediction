@@ -1,12 +1,12 @@
 # Diabetes Prediction
 
-
+Train and compared the performance of the machine learning models with two different missing-data imputation: mean imputation and guess matrix. 
 
 Tools: Python, Scikit-Learn, Logistic Regression, Random Forest Classifier, AdaBoost, Perceptron.
 
+**Data:**
 
-# Data:
-## Data Source: `diabetesdata.csv`. About the data:
+Data Source: `diabetesdata.csv`. About the data:
 
 1. __TimesPregnant__: Number of times pregnant 
 2. __glucoseLevel__: Plasma glucose concentration a 2 hours in an oral glucose tolerance test 
@@ -17,12 +17,7 @@ Tools: Python, Scikit-Learn, Logistic Regression, Random Forest Classifier, AdaB
 8. __Age__: Age (years) 
 9. __IsDiabetic__: 0 if not diabetic or 1 if diabetic) 
 
-## Summary: 
-
-Replace the Nan values in  train_df and test_df with the mean of EACH feature.
-
-Train and compared the performance of the machine learning models with two different missing-data imputation: mean imputation and guess matrix. 
-
+**Summary:** 
 
 First, I use the dataset with Mean imputation to train perceptron, logistic regression and random forest models using 15% test split and report the train and test accuracy.
 
