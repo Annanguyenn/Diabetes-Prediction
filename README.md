@@ -1,6 +1,6 @@
 # Diabetes Prediction
 
-Train and compared the performance of the machine learning models with two different missing-data imputation: mean imputation and guess matrix. 
+Trained and compared the performance of the machine learning models with two different missing-data imputation: mean imputation and guess matrix. 
 
 Tools: Python, Scikit-Learn, Logistic Regression, Random Forest Classifier, AdaBoost, Perceptron.
 
