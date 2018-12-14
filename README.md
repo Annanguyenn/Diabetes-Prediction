@@ -45,4 +45,6 @@ Mean imputation is not the best type of imputation to use. Because it has severa
 
 Alternative methods to impute data: Paul Allison (2009) suggests either maximum likelihood estimation or multiple imputation methods, both of which try to preserve relationships between variables and the inherent variability of the data. Stochastic regression imputation: The predicted value from a regression plus a random residual value.This has all the advantages of regression imputation but adds in the advantages of the random component. Most multiple imputation is based off of some form of stochastic regression imputation.
 
+Please find the attached files for more details. 
 
+Thank you!
